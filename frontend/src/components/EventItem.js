@@ -14,8 +14,8 @@ function EventItem({ event }) {
 			<time>{event.date}</time>
 			<p>{event.description}</p>
 			<menu className={classes.actions}>
-				<Link to="edit">Edit</Link>
-				<button onClick={startDeleteHandler}>Delete</button>
+				<Link to="edit">EDIT</Link>
+				<button onClick={startDeleteHandler}>DELETE</button>
 			</menu>
 		</article>
 	);
