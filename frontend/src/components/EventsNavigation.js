@@ -20,7 +20,7 @@ function EventsNavigation() {
 					<li>
 						<NavLink
 							to="/events/new"
-							lassName={({ isActive }) =>
+							className={({ isActive }) =>
 								isActive ? classes.isActive : undefined
 							}
 						>
